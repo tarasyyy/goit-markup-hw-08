@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css">
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+    <!-- Шапка страницы -->
+    <header class="header">
+        <div class="container">
+            <a class="header__logo" href="./index.html"><span class="logo">Web</span>Studio</a>
+            <!-- Навигация на другие страницы -->
+            <nav class="nav">
+                <ul class="menu list">
+                    <li class="menu__item"><a class="link" href="./index.html">Студия</a></li>
+                    <li class="menu__item"><a class="link link--current" href="./portfolio.html">Портфолио</a></li>
+                    <li class="menu__item"><a class="link" href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <!-- Контакты -->
+            <ul class="contacts-list  list">
+                <li class="contacts-list__item">
+                    <a class="link contacts-list__link" href="mailto:info@example.com">
+                        <svg class="contacts-list__svg" width="16" height="12">
+                            <use href="./images/icons/sprite.svg#icon-envelope"></use>
+                        </svg>
+                        info@example.com
+                    </a>
+                </li>
+                <li class="contacts-list__item">
+                    <a class="link contacts-list__link" href="tel:+380991111111">
+                        <svg class="contacts-list__svg" width="10" height="16">
+                            <use href="./images/icons/sprite.svg#icon-smartphone"></use>
+                        </svg>
+                        +38 099 111 11 11
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <!-- Уникальный контент страницы -->
+    <main>
+        <section class="padding-bottom padding-top white_bg">
+            <div class="container">
+                <h2 class="visually-hidden">Портфолио</h2>
+                <ul class="menu_portfolio list">
+                    <li class="menu_p_item"><button class="btn1 current" type="button">Все</button></li>
+                    <li class="menu_p_item"><button class="btn1" type="button">Веб-сайты</button></li>
+                    <li class="menu_p_item"><button class="btn1" type="button">Приложения</button></li>
+                    <li class="menu_p_item"><button class="btn1" type="button">Дизайн</button></li>
+                    <li class="menu_p_item"><button class="btn1" type="button">Маркетинг</button></li>
+                </ul>
+            </div>
+            <div class="container">
+                <ul class=" list card_set">
+                    <li class="item li_portfolio">
+                        <a href="" class="portfolio_link">
+                            <div class="thumb">
+                                <img class="img" src="./images/img001.jpg" alt="ноутбук" width="370" height="294">
+                                <div class="label_p">
+                                    <p class="pp">
+                                        Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу
+                                        для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="pth3_filter">Технокряк</h3>
+                            <p class="p_filter">Веб-сайт</p>
+                        </a>
+                    </li>
+                    <li class="item li_portfolio">
+                        <a href="" class="portfolio_link">
+                            <div class="thumb">
+                                <img class="img" src="./images/img002.jpg" alt="ноутбук" width="370" height="294">
+                                <div class="label_p">
+                                    <p class="pp">
+                                        Постер New Orlean vs Golden Star
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="pth3_filter">Постер New Orlean vs Golden Star</h3>
+                            <p class="p_filter">Дизайн</p>
+                        </a>
+                    </li>
+                    <li class="item li_portfolio">
+                        <a href="" class="portfolio_link">
+                            <div class="thumb">
+                                <img class="img" src="./images/img003.jpg" alt="ноутбук" width="370" height="294">
+                                <div class="label_p">
+                                    <p class="pp">
+                                        Ресторан Seafood
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="pth3_filter">Ресторан Seafood</h3>
+                            <p class="p_filter">Приложение</p>
+                        </a>
+                    </li>
+                    <li class="item li_portfolio">
+                        <a href="" class="portfolio_link">
+                            <div class="thumb">
+                                <img class="img" src="./images/img004.jpg" alt="ноутбук" width="370" height="294">
+                                <div class="label_p">
+                                    <p class="pp">
+                                        Проект Prime
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="pth3_filter">Проект Prime</h3>
+                            <p class="p_filter">Маркетинг</p>
+                        </a>
+                    </li>
+                    <li class="item li_portfolio">
+                        <a href="" class="portfolio_link">
+                            <div class="thumb">
+                                <img class="img" src="./images/img005.jpg" alt="ноутбук" width="370" height="294">
+                                <div class="label_p">
+                                    <p class="pp">
+                                        Проект Boxes
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="pth3_filter">Проект Boxes</h3>
+                            <p class="p_filter">Приложение</p>
+                        </a>
+                    </li>
+                    <li class="item li_portfolio">
+                        <a href="" class="portfolio_link">
+                            <div class="thumb">
+                                <img class="img" src="./images/img006.jpg" alt="ноутбук" width="370" height="294">
+                                <div class="label_p">
+                                    <p class="pp">
+                                        Inspiration has no Borders
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="pth3_filter">Inspiration has no Borders</h3>
+                            <p class="p_filter">Веб-сайт</p>
+                        </a>
+                    </li>
+                    <li class="item li_portfolio">
+                        <a href="" class="portfolio_link">
+                            <div class="thumb">
+                                <img class="img" src="./images/img007.jpg" alt="ноутбук" width="370" height="294">
+                                <div class="label_p">
+                                    <p class="pp">
+                                        Издание Limited Edition
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="pth3_filter">Издание Limited Edition</h3>
+                            <p class="p_filter">Дизайн</p>
+                        </a>
+                    </li>
+                    <li class="item li_portfolio">
+                        <a href="" class="portfolio_link">
+                            <div class="thumb">
+                                <img class="img" src="./images/img008.jpg" alt="ноутбук" width="370" height="294">
+                                <div class="label_p">
+                                    <p class="pp">
+                                        Проект LAB
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="pth3_filter">Проект LAB</h3>
+                            <p class="p_filter">Маркетинг</p>
+                        </a>
+                    </li>
+                    <li class="item li_portfolio">
+                        <a href="" class="portfolio_link">
+                            <div class="thumb">
+                                <img class="img" src="./images/img009.jpg" alt="ноутбук" width="370" height="294">
+                                <div class="label_p">
+                                    <p class="pp">
+                                        Growing Business
+                                    </p>
+                                </div>
+                            </div>
+                            <h3 class="pth3_filter">Growing Business</h3>
+                            <p class="p_filter">Приложение</p>
+                        </a>
+                    </li>
+                
+                   
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Подвал страницы -->
+    <footer class="foot_cont dark_bg">
+        <div class="container">
+            <ul class="footer_list list">
+                <li>
+                    <a class="logo_f" href="./index.html"><span class="logo">Web</span>Studio</a>
+                    <!-- контакты -->
+                    <address class="address">
+                        <ul class="list">
+                            <li class="menu_f"><a class="link address_white" href="https://goo.gl/maps/WUmFvbnY2nkJRH4h6"
+                                    target="_blank
+                                            ">г. Киев, пр-т Леси Украинки, 26</a></li>
+                            <li class="menu_f"><a class="link address_light"
+                                    href="mailto:info@example.com">info@example.com</a></li>
+                            <li class="menu_f"><a class="link address_light" href="tel:+380991111111">+38 099 111 11 11</a>
+                            </li>
+                        </ul>
+                    </address>
+                </li>
+                <li>
+                    <h3 class="add">присоединяйтесь</h3>
+                    <ul class="social_icons list">
+                        <li class="social_icons_item">
+                            <a href="" class="f_social_icons_link" target="_blank" rel="noopener noreferrer">
+                                <svg class="f_social_icons_svg">
+                                    <use href="./images/icons/sprite.svg#icon-instagram "></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social_icons_item">
+                            <a href="" class="f_social_icons_link" target="_blank" rel="noopener noreferrer">
+                                <svg class="f_social_icons_svg">
+                                    <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social_icons_item">
+                            <a href="" class="f_social_icons_link" target="_blank" rel="noopener noreferrer">
+                                <svg class="f_social_icons_svg">
+                                    <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social_icons_item">
+                            <a href="" class="f_social_icons_link" target="_blank" rel="noopener noreferrer">
+                                <svg class="f_social_icons_svg">
+                                    <use href="./images/icons/sprite.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="add">Подпишитесь на рассылку</h3>
+                    <form action="" class="form">
+                        <input type="email" class="mailing" name="mailing_name" placeholder="E-mail" autocomplete="off">
+                        <button class="btn2" type="button">Подписаться
+                            <svg class="telega_icons_svg">
+                                <use href="./images/icons/sprite.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+.credo {
+  padding-top: 95px;
+}
+
+.credo__list {
+  justify-content: center;
+}
+
+.credo__ikon {
+  width: 270px;
+  height: 120px;
+  background: var(--work_bg);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.credo__svg {
+  width: 70px;
+  height: 70px;
+  fill: var(--black_title_tc);
+}
+
+.credo__title {
+  margin-top: 0px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black_title_tc);
+}
+.credo__text {
+  width: 270px;
+  height: 75px;
+}

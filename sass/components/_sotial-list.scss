@@ -1,0 +1,69 @@
+.social_icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.social_icons_item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social_icons_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--white_bg);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--btn_bg);
+  }
+}
+
+.social_icons_svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--icon_bg);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .social_icons_link:hover &,
+  .social_icons_link:focus & {
+    fill: var(--white_bg);
+  }
+}
+
+.f_social_icons_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--btn_bg);
+  }
+}
+
+.f_social_icons_svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--white_bg);
+}
+
+.contacts-list__svg {
+  stroke: var(--main_tc);
+  margin-right: 10px;
+  fill: currentColor;
+  stroke: currentColor;
+}

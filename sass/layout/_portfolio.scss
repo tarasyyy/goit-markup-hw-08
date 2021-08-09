@@ -1,0 +1,108 @@
+.menu_portfolio {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.menu_p_item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.btn1 {
+  padding: 6px 22px;
+  border: 0px;
+  background-color: var(--team_bg);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  align-items: center;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black_title_tc);
+  border-radius: 4px;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--btn_bg);
+    color: var(--white_title_tc);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+
+
+.label_p {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  bottom: 0;
+  margin: 0;
+  background: rgba(33, 150, 243, 0.9);
+  opacity: 0;
+  transform: translateY(100%);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .portfolio_link:hover &,
+  .portfolio_link:focus & {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pp {
+  padding-top: 63px;
+  margin: 0 auto;
+  width: 322px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: var(--white_title_tc);
+}
+
+.portfolio_link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus-visible {
+    outline: 0;
+  }
+
+  &:hover,
+  &:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+}
+
+.li_portfolio {
+  background: var(--white_bg);
+  outline: 1px solid #eeeeee;
+}
+
+.p_filter {
+  font-size: 16px;
+  line-height: 1.87;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.pth3_filter {
+  margin: 20px 0px 5px 0px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black_title_tc);
+  padding-left: 24px;
+  padding-bottom: 0px;
+}
