@@ -580,7 +580,7 @@ input:invalid {
 }
 
 .credo__ikon {
-  width: 270px;
+  width: auto;
   height: 120px;
   background: var(--work_bg);
   border-radius: 4px;
@@ -606,8 +606,20 @@ input:invalid {
 }
 
 .credo__text {
-  width: 270px;
+  max-width: 450px;
   height: 75px;
+}
+
+@media screen and (max-width: 767px) {
+  .credo__title {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .credo__text {
+    max-width: 354px;
+  }
 }
 
 .work {
