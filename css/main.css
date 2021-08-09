@@ -678,6 +678,11 @@ input:invalid {
   background-color: var(--team_bg);
 }
 
+.clients {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
 .client_icon {
   display: flex;
   justify-content: center;
