@@ -628,6 +628,12 @@ input:invalid {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .credo__text {
+    max-width: 270px;
+  }
+}
+
 .work {
   display: none;
 }
