@@ -124,7 +124,23 @@
                 <h2 class="pth2">Наша команда</h2>
                 <ul class="list team__list card_set">
                     <li class="item team__item">
-                        <img class="img" src="./images/img01.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                        <picture>
+
+                            <source media="(min-width: 1200px)" srcset="./images/team/desktop/team-1.webp 1x, ./images/team/desktop/team-1@2x.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 1200px)" srcset="./images/team/desktop/team-1.jpg 1x, ./images/team/desktop/team-1@2x.jpg 2x"
+
+                            <source media="(min-width: 768px)" srcset="./images/team/tablet/team-1.webp 1x, ./images/team/tablet/team-1@2x.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 768px)" srcset="./images/team/tablet/team-1.jpg 1x, ./images/team/tablet/team-1@2x.jpg 2x"
+
+                            <source media="(min-width: 280px)" srcset="./images/team/mobile/team-1.webp 1x, ./images/team/mobile/team-1@2x.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 280px)" srcset="./images/team/mobile/team-1.jpg 1x, ./images/team/mobile/team-1@2x.jpg 2x"
+
+                            <img class="img" src="#" alt="Игорь Демьяненко" />
+                        </picture>
+                        <!-- <img class="img" src="./images/img01.jpg" alt="Игорь Демьяненко" width="270" height="260"> -->
                         <h3 class="pth3_team">Игорь Демьяненко</h3>
                         <p class="p_team">Product Designer</p>
                         <ul class="social_icons list">
