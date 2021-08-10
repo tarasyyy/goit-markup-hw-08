@@ -545,8 +545,8 @@ input:invalid {
 
 .menu-open {
   position: absolute;
-  right: 22px;
-  top: 15px;
+  right: 7px;
+  top: 21px;
   width: 40px;
   height: 40px;
   display: inline-flex;
@@ -563,6 +563,7 @@ input:invalid {
 }
 
 .phoneicon_menu {
+  align-items: center;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
