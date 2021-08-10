@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.css">
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
     <!-- Шапка страницы -->
@@ -47,12 +47,12 @@
 
     <!-- Уникальный контент страницы -->
     <main>
-        <!-- <section class="hero hero--bg">
+        <section class="hero hero--bg">
             <div class="container">
                 <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
                 <button class="hero__btn" type="button" data-modal-open>Заказать услугу</button>
             </div>
-        </section> -->
+        </section>
 
         <section class="credo white-bg">
             <h2 class="visually-hidden">Как мы работаем</h2>
@@ -104,15 +104,37 @@
                 <h2 class="pth2 ">Чем мы занимаемся</h2>
                 <ul class="list card_set">
                     <li class="item thumb">
-                        <img class="img" src="./images/img1.jpg" alt="Работа с компьютером" width="370" height="294">
+                        <picture>
+                        
+                            <source media="(min-width: 1200px)" srcset="./images/work/job-1.webp 1x, ./images/work/job-1@2x.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 1200px)" srcset="./images/work/job-1.jpg 1x, ./images/work/job-1@2x.jpg 2x">
+                        
+                            <img class="img" src="#" alt="Работа с компьютером" />
+                        </picture>
                         <p class="label">Десктопные приложения</p>
                     </li>
                     <li class="item thumb">
-                        <img class="img" src="./images/img2.jpg" alt="Работа с телефоном" width="370" height="294">
+                        <picture>
+                        
+                            <source media="(min-width: 1200px)" srcset="./images/work/job-2.webp 1x, ./images/work/job-2@2x.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 1200px)" srcset="./images/work/job-2.jpg 1x, ./images/work/job-2@2x.jpg 2x">
+                        
+                            <img class="img" src="#" alt="Работа с телефоном" />
+                        </picture>
                         <p class="label">Мобильные приложения</p>
                     </li>
                     <li class="item thumb">
-                        <img class="img" src="./images/img3.jpg" alt="Работа с планшетом" width="370" height="294">
+                        <picture>
+                        
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/work/job-3.webp 1x, ./images/work/job-3@2x.webp 2x" type="image/webp">
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/work/job-3.jpg 1x, ./images/work/job-3@2x.jpg 2x">
+                        
+                            <img class="img" src="#" alt="Работа с планшетом" />
+                        </picture>
                         <p class="label">Дизайнерские решения</p>
                     </li>
                 </ul>

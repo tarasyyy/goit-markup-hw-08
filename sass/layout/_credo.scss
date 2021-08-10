@@ -1,6 +1,14 @@
 .credo {
-  padding-top: 95px;
+  padding-top: 60px;
 }
+
+@media screen and (min-width: 1200px) {
+ .credo {
+    padding-top: 95px;
+  }
+}
+
+
 
 .credo__list {
   justify-content: center;
@@ -25,6 +33,7 @@
 
 .credo__title {
   margin-top: 0px;
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -32,8 +41,9 @@
   color: var(--black_title_tc);
 }
 .credo__text {
+  margin: 0;
   max-width: 450px;
-  height: 75px;
+  height: 50px;
 }
 
 
@@ -46,11 +56,13 @@
 @media screen and (min-width: 768px) {
   .credo__text {
     max-width: 354px;
+    height: 75px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .credo__text {
     max-width: 270px;
+    height: 75px;
   }
 }

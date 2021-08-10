@@ -11,10 +11,23 @@
 }
 
 .client_item {
-  width: 170px;
+  width: 210px;
   height: 92px;
   background: var(--white_bg);
 }
+
+@media screen and (min-width: 768px) {
+  .client_item {
+  width: 226px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+  .client_item {
+  width: 170px;
+}
+}
+
 
 .client_icons_link {
   display: flex;
