@@ -11,9 +11,13 @@ body {
 .link {
   color: inherit;
   text-decoration: none;
-  height: 30px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-link {
+  text-decoration: none;
+  color: var(--btn_bg);
 }
 
 .link:hover,
