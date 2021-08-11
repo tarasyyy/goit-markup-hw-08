@@ -223,8 +223,8 @@ body {
 }
 
 .modal {
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   padding: 40px;
   position: absolute;
   top: 50%;
@@ -289,7 +289,7 @@ body {
   margin-bottom: 30px;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   display: block;
@@ -446,6 +446,16 @@ input:invalid {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+  .checkbox_label {
+    font-size: 14px;
+  }
 }
 
 .container {
