@@ -8,8 +8,9 @@
 
 }
 .modal {
-  width: 450px;
-  height: 609px;
+  width: 95%;
+  max-width: 450px;
+  max-height: 700px;
   padding: 40px;
   position: absolute;
   top: 50%;
@@ -239,6 +240,14 @@ input {
   pointer-events: none;
 }
 
+.form_footer {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
 
 @media screen and (min-width: 1200px) {
   .modal {
