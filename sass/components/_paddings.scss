@@ -1,7 +1,17 @@
 .padding-top {
-  padding-top: 95px;
+  padding-top: 60px;
 }
 
 .padding-bottom {
-  padding-bottom: 95px;
+  padding-bottom: 60px;
+}
+
+  @media screen and (min-width: 1200px) {
+  .padding-top {
+    padding-top: 95px;
+  }
+
+  .padding-bottom {
+    padding-bottom: 95px;
+  }
 }

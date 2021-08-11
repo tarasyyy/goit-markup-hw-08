@@ -1,6 +1,6 @@
 .team {
-  padding-top: 95px;
-  padding-bottom: 95px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .team__list {
@@ -37,4 +37,11 @@
 
 .team_bg {
   background-color: var(--team_bg);
+}
+
+@media screen and (min-width: 1200px) {
+  .team {
+    padding-top: 95px;
+    padding-bottom: 95px;
+  }
 }

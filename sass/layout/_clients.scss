@@ -1,6 +1,6 @@
 .clients {
-  padding-top: 95px;
-  padding-bottom: 95px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 
@@ -18,14 +18,20 @@
 
 @media screen and (min-width: 768px) {
   .client_item {
-  width: 226px;
-}
-}
+    width: 226px;
+  }
+  }
 
-@media screen and (min-width: 1200px) {
-  .client_item {
-  width: 170px;
-}
+  @media screen and (min-width: 1200px) {
+    .client_item {
+    width: 170px;
+  }
+
+  .clients {
+    padding-top: 95px;
+    padding-bottom: 95px;
+  }
+
 }
 
 
