@@ -1,6 +1,8 @@
 .menu_portfolio {
+  justify-content: start;
+  flex-wrap: wrap;
   display: flex;
-  justify-content: center;
+  
   margin-bottom: 50px;
 }
 
@@ -9,6 +11,8 @@
 }
 
 .btn1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
   padding: 6px 22px;
   border: 0px;
   background-color: var(--team_bg);
@@ -39,7 +43,7 @@
 
 .label_p {
   position: absolute;
-  width: 370px;
+  width: 450px;
   height: 294px;
   bottom: 0;
   margin: 0;
@@ -107,4 +111,23 @@
   color: var(--black_title_tc);
   padding-left: 24px;
   padding-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu_portfolio{
+  justify-content: center;
+  }
+  
+  .label_p {
+  width: 354px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  
+  .label_p {
+  width: 370px;
+  }
+
 }
