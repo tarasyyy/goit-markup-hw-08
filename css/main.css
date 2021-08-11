@@ -1142,7 +1142,7 @@ input:invalid {
 }
 
 .mailing {
-  width: 358px;
+  width: 368px;
   height: 50px;
   padding: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1176,7 +1176,7 @@ input:invalid {
 }
 
 .add {
-  margin-top: 12px;
+  margin-top: 60px;
   margin-bottom: 0;
   font-style: normal;
   font-weight: bold;
@@ -1190,6 +1190,15 @@ input:invalid {
 
 .form_footer {
   display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .footer_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1208,6 +1217,9 @@ input:invalid {
   }
   .form {
     display: inline-flex;
+  }
+  .add {
+    margin-top: 12px;
   }
 }
 
