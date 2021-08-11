@@ -647,8 +647,8 @@ input:invalid {
 }
 
 .mobile-social__list li {
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .mobile-social__list li a {
@@ -664,7 +664,7 @@ input:invalid {
 }
 
 .mobile-social__list li:last-child {
-  padding-left: 7px;
+  padding-left: 8px;
   padding-right: 0;
 }
 
