@@ -655,6 +655,7 @@ input:invalid {
 
 .mobile-social__list li:last-child {
   padding-left: 10px;
+  padding-right: 0;
 }
 
 .mobile-social__list li:first-child {
