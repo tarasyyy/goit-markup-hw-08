@@ -90,7 +90,7 @@
 }
 
 .mailing {
-  max-width: 368px;
+  max-width: 450px;
   width: 100%;
   height: 50px;
   padding: 15px;
@@ -141,6 +141,11 @@
 
 
 @media screen and (min-width: 768px) {
+  .mailing {
+    min-width: 368px;
+    width: 100%;
+  }
+
   .footer_list {
     
     display: flex;
@@ -176,6 +181,8 @@
   .add {
     margin-top: 12px;
   }
+
+  
 
 
 }
